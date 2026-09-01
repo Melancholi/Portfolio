@@ -1,4 +1,4 @@
 # Portfolio
 
-Portfolio website to show off my mediocre achievements.
+Portfolio website to show off my skills and projects
 
