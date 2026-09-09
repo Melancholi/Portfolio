@@ -32,18 +32,9 @@ const Portfolio = () => {
         <div className='container'>
           <div className='hero-grid'>
             <div className='hero-content'>
-              <p className='hero-kicker'>Resume data loaded from JSON</p>
               <h1 className='hero-title'>
                 {profile.name}
               </h1>
-              <p className='hero-role'>{profile.title}</p>
-              {Array.isArray(profile.titles) ? (
-                <div className='hero-details'>
-                  {profile.titles.map((role) => (
-                    <span key={role} className='detail-pill'>{role}</span>
-                  ))}
-                </div>
-              ) : null}
               <p className='hero-copy'>
                 {profile.summary}
               </p>
